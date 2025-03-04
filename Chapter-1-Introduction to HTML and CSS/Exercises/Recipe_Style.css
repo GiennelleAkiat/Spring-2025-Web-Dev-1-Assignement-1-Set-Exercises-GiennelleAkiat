@@ -1,11 +1,26 @@
 body {
-    padding-left: 5em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: #241c16;
-    background-color: #f5efdf}
+    background-color: #f5efdf;
+    margin: 30px 100px 75px 100px;
+    /*margin: top, right, bottom, left*/
+}
 
-    
+h1, h2 {
+    text-transform: uppercase;
+}
+
+div.div1 {
+    text-align: center;
+}
+
+div {
+    padding: 2%;
+    margin: 50px;
+    background-color: #ffffff;
+}
+
 a:link {
-    color: #7d00d1}
+    color: #7d00d1
+}
 
