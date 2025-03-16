@@ -10,6 +10,45 @@ div {
   height: 200px;
 }
 
+#div_1 {
+  border-color: blueviolet;
+  box-shadow: 10px 12px 0.5rem red;
+}
+
+#div_2 {
+  border-color: greenyellow;
+  box-shadow: inset 10px 12px 0.5rem black;
+}
+
+#div_3 {
+  background-color: orange;
+  padding: 4px;
+  border: 10px solid blue;
+  position: relative;
+  border-radius: 35px;
+  outline: 10px solid orangered;
+  box-shadow: 0px 0px 0px 20px green;
+
+}
+
+#div_3 img {
+  border-radius: 20px;
+}
+
+#div_4 {
+  border-color: brown;
+  text-shadow: 5px 5px 2px black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  font-size: 10px;
+}
+
 body {
   margin: 100px auto;
   width: max-content;
