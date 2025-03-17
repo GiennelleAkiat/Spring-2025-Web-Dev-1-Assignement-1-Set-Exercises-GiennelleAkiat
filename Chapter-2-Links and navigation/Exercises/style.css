@@ -1,12 +1,45 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 30px 100px 75px 100px;
+  /*margin: top, right, bottom, left*/
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.active {
+  text-align: center;
+}
+
+.topnav {
+  text-align: center;
+}
+
+div {
+  padding: 2%;
+  margin: 50px;
+  background-color: #121320;
+  border: 2px solid #ffffff;
+}
+
+#reviews h2 {
+  text-align: center;
+}
+
 #link_button {
-    background-color: #f44336;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
   
-  a:hover, a:active {
-    background-color: red;
-  }
+#link_button a:hover,
+#link_button a:active {
+  background-color: red;
+}
