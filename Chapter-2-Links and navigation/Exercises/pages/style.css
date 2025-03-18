@@ -15,7 +15,9 @@ h1 {
 }
 
 .topnav {
+  display: grid;
   text-align: center;
+  
 }
 
 div {

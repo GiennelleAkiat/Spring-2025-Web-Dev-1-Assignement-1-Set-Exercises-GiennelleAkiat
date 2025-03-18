@@ -4,68 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lies of P</title>
-    <link rel = "stylesheet" href="pages/style.css">
+    <link rel = "stylesheet" href="style.css">
+    <script src="nav.js"></script>
 </head>
 
 <body>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#plot">Plot</a>
-        <a href="#keyinfo">Key Information</a>
-        <a href="#cast">Creative Team</a>
-        <a href="#characters">Characters</a>
-        <a href="#reviews">Reviews</a>
-    </div>
-
+    <div w3-include-html="topnav.html"></div>
     <div class="active">
         <h1>Lies of P</h1>
         <h2>About</h2>
         <p>Lies of P is a thrilling soulslike game that takes the story of Pinocchio, turns it on its head, and sets it against the darkly elegant backdrop of the Belle Epoque era.</p>
     </div>
 
-    <div id="plot">
-        <h2>Plot</h2>
-        <p>You are a puppet created by Geppetto who’s caught in a web of lies with unimaginable monsters and untrustworthy figures standing between you and the events that have befallen the world of Lies of P.
-        <br><br>
-        You are awakened by a mysterious voice that guides you through the plagued city of Krat - a once lively place that has been poisoned by madness and bloodlust. In our soulslike, you must adapt yourself and your weapons to face untold horrors, untangle the unfathomable secrets of the city's elites and choose whether to confront predicaments with the truth or weave lies to overcome them on the journey to find yourself.</p>
-    </div>
 
-    <div id="keyinfo">
-        <h2>Key Information</h2>
-        <h3>System Requirements</h3>
 
-        <h5>MINIMUM</h5>
-        <ul id="mini">
-            <li>Requires a 64-bit processor and operating system</li>
-            <li>OS: Windows 10 64bit</li>
-            <li>Processor: AMD Ryzen 3 1200／Intel Core i3-6300</li>
-            <li>Memory: 8 GB RAM</li>
-            <li>Graphics: AMD Radeon RX 560 4GB / NVIDIA GeForce GTX 960 4GB</li>
-            <li>DirectX: Version 12</li>
-            <li>Storage: 50 GB available space</li>
-        </ul>
-
-        <h5>RECCOMENDED</h5>
-        <ul id="max">
-            <li>Requires a 64-bit processor and operating system</li>
-            <li>OS: Windows 10 64bit</li>
-            <li>Processor: AMD Ryzen 3 1200／Intel Core i3-6300</li>
-            <li>Memory: 16 GB RAM</li>
-            <li>Graphics: AMD Radeon RX 6500 XT 4GB / NVIDIA GeForce GTX 1660 6GB</li>
-            <li>DirectX: Version 12</li>
-            <li>Storage: 50 GB available space</li>
-        </ul>
-    </div>
-    
-    <div id="cast">
-        <h2>Creative Team</h2>
-        <ul>
-            <li>Developer(s): Neowiz, Round8 Studio</li>
-            <li>Publisher: Neowiz</li>
-            <li>Director: Choi Ji-won</li>
-            <li>Composer: Silun Lee</li>
-        </ul>
-    </div>
 
     <div id="characters">
         <h2>Characters</h2>
@@ -99,5 +51,9 @@
 
     <!--TO DO: Link STYLED like a button, not an actual button-->
     <a id="link_button" target="_blank" href="https://www.liesofp.com/en-us">Official Website</a>
+    
+    <script>
+        includeHTML();
+    </script>
 </body>
 </html>
