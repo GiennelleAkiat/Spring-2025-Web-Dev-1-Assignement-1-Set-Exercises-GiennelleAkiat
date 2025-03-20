@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href="style.css">
+    <script src="nav.js"></script>
 </head>
 <body>
-    <div id="nav-placeholder"></div>
+    <div w3-include-html="topnav.html"></div>
+
     <div id="cast">
         <h2>Creative Team</h2>
         <ul>
@@ -17,5 +19,9 @@
             <li>Composer: Silun Lee</li>
         </ul>
     </div>
+
+    <script>
+        includeHTML();
+    </script>
 </body>
 </html>

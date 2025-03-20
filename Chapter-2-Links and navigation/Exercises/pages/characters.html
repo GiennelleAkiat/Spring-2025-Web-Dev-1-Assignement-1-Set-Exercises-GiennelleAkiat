@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href="style.css">
+    <script src="nav.js"></script>
 </head>
 <body>
-    <div id="nav-placeholder"></div>
-    <div id="plot">
-        <h2>Plot</h2>
-        <p>You are a puppet created by Geppetto who's caught in a web of lies with unimaginable monsters and untrustworthy figures standing between you and the events that have befallen the world of Lies of P.
-        <br><br>
-        You are awakened by a mysterious voice that guides you through the plagued city of Krat - a once lively place that has been poisoned by madness and bloodlust. In our soulslike, you must adapt yourself and your weapons to face untold horrors, untangle the unfathomable secrets of the city's elites and choose whether to confront predicaments with the truth or weave lies to overcome them on the journey to find yourself.</p>
+    <div w3-include-html="topnav.html"></div>
+    <div id="characters">
+        <h2>Characters</h2>
+        <ul>
+            <li>Pinocchio, the Player Character</li>
+            <li>Mr. Geppetto, the Master Puppet Maker</li>
+            <li>Sophia, the Conscience of P</li>
+            <li>Venigni, a Genius of Technology</li>
+            <li>Eugenie, An Outsider</li>
+            <li>Antonia, Owner of the Hotel Krat</li>
+        </ul>
     </div>
+
+    <script>
+        includeHTML();
+    </script>
 </body>
 </html>

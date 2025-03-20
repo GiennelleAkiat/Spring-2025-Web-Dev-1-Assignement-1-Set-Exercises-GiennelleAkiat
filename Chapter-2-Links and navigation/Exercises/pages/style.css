@@ -15,9 +15,9 @@ h1 {
 }
 
 .topnav {
-  display: grid;
   text-align: center;
-  
+  margin: -30px;
+  padding: 20px;
 }
 
 div {
